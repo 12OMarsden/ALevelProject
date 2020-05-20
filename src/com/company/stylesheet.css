@@ -1,0 +1,74 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.root {
+    midnight: #2c3e50;
+    asphalt: #34495e;
+    silver: #bdc3c7;
+    cloud: #ecf0f1;
+    belize: #2980b9;
+    river: #3498db;
+    firebrick: #B22222;
+    slategray: #708090;
+    lightblue: #ADD8E6;
+    midnightblue: #191970;
+    white: #FFFFFF;
+    gainsboro: #DCDCDC;
+    black: #000000;
+
+    -fx-background: white;
+    -fx-font-family: "Arial";
+    -fx-padding: 20 ;
+    cell-color: white ;
+    cell-border-color: black ;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.grid {
+    -fx-background-color: cell-border-color, cell-color ;
+    -fx-background-insets: 0, 1 1 0 0 ;
+    -fx-padding: 1 ;
+}
+.cell {
+    -fx-background-color: cell-border-color, cell-color ;
+    -fx-background-insets: 0, 0 0 1 1 ;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.button {
+    -fx-text-fill: black;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-background-color: silver;
+}
+
+.button:hover {
+    -fx-background-color: slategray;
+    -fx-text-fill: white;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.text-field {
+    -fx-background-color: cloud;
+    -fx-background-radius: 15;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.text-area .content {
+    -fx-background-color: cloud;
+    -fx-background-radius: 15;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.grid{
+    -fx-background-radius: 5.0;
+    -fx-background-insets: 0.0 5.0 0.0 5.0;
+    -fx-padding: 10;
+    -fx-hgap: 50;
+    -fx-vgap: 10;
+}
+
